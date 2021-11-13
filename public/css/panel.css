@@ -1,0 +1,93 @@
+.panel_buscar{
+    padding-left: 280px; 
+    padding-top: 80px; 
+    width: 100%; 
+    height: 140px; 
+    overflow: auto;
+}
+
+.panel_container{
+    padding-left: 280px; 
+    padding-top: 70px; 
+    width: 100%; 
+    height: 90%; 
+    overflow: auto;
+}
+
+.panel_menu{
+    width: 250px; 
+    height: 94%; 
+    position: fixed; 
+    z-index: 2; 
+    margin-top: 56px; 
+    background-color: #64AAF0; 
+    box-shadow: 4px 0px 14px grey; 
+    overflow: hidden;
+    overflow-y: auto;
+    display: block;
+}
+
+.d_opciones_menu{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+.d_opciones_menu:hover{
+    background-color: white;
+    color: #64AAF0;
+}
+
+.iconos_menu{
+    color: white;
+}
+
+.box-style{
+    margin: 16px; 
+    padding: 16px; 
+    width: 290px; 
+    height: 360px;
+    border-top-style: solid; 
+    border-width: 4px; 
+    border-color: #64AAF0; 
+    border-radius: 10px; 
+    background-color: white;
+    box-shadow: 2px 2px 6px lightgray;
+    float: left;
+    font-size: 14px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.box-style:hover{
+    background-color: #C8E6FF;
+    transition: background-color .5s;
+}
+
+
+
+.td-cont{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    padding-left: 12px;
+}
+
+
+@media only screen and (max-width: 850px) {    
+    .panel_menu{
+        display: none;
+    }
+    .panel_container{
+        padding-left: 0px; 
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .box-style{
+        width: 90%;
+    }
+}

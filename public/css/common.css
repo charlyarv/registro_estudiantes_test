@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h{ display: none; }
+
+/* Inputs */
+.input-form{
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: #1464A0;
+    padding: 10px;
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Botones */
+.btn_t1{
+    padding: 10px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    background-color: #64AAF0; 
+    color: white; 
+    font-weight: bold; 
+    border-style: none; 
+    border-radius: 6px;
+}
+
+.btn_t1:hover{
+    background-color: #1464A0;
+    transition: background-color .5s;
+}
+
+.btn_t2{
+    padding: 10px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    background-color: white; 
+    color: #1464A0; 
+    font-weight: bold; 
+    border-style: solid;
+    border-color: #1464A0; 
+    border-radius: 6px;
+}
+
+.btn_t2:hover{
+    background-color: #1464A0;
+    color: white;
+    transition: background-color .5s;
+}
+
+/* ICONOS */
+    .op_menu_superior_left{
+        float: left; 
+        padding: 12px; 
+        cursor: pointer;
+    }

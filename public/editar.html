@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="css/registro.css" rel="stylesheet" type="text/css"/>
+
+<div style="width: 100%;">
+    <div class="form-box-style" style="overflow: hidden;" >
+        <div class="form-box-style-title"> Editar Registro de Estudiante </div>
+        
+        <div style="width: 100%;"> Matricula </div>
+        <div class="row">
+
+            <div class="col-md-9">
+                <input type="text" id="matricula" value="" style="width: 100%;" class="input-form" /> 
+            </div> 
+            <div class="col-md-2">
+                <input id="btn_buscar" type="button" value="Buscar" class="btn_t2"/>
+            </div>
+            
+        </div>
+        <div> Nombre </div>
+        <div> <input type="text" id="nombre" value="" style="width: 100%;" class="input-form" /> </div>
+        <div class="a1" >
+            <div> Genero </div>
+            <div style="padding-right: 10px;"> 
+                <select id="genero" class="input-form" style="width: 100%;">
+                    <option value="">Seleccione...</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="masculino">Masculino</option>
+                </select>
+            </div>
+        </div>
+        <div class="a1">
+            <div> Grado Escolar </div>
+            <div style="padding-right: 10px;">
+                <input type="number" id="grado_escolar" value="" step="any" style="width: 100%;" class="input-form" />
+            </div>
+        </div>
+        
+        <div style="padding: 12px; text-align: center;">
+            <input id="btn_guardar" type="button" value="Guardar" class="btn_t2"/>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" id="h_folio_id" value=""/>
+<script src="js/editar.js"></script>
